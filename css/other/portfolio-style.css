@@ -1,0 +1,460 @@
+/*
+Theme Name: CETUS – Creative Portfolio HTML5 Template
+Theme URI: http://live.envalab.com/html/cetus
+Author: ENVALAB
+Author URI: https://themeforest.net/user/envalab/portfolio
+Description: CETUS is minimal multi-purpose portfolio template suitable any agencies, portfolios, creative group, freelancers, artists, professionals and much more.
+Version: 1.0
+*/
+
+/* 
+CSS Indexing
+=> ONE COLUMN WITH TEXT PAGE CSS
+=> TWO COLUMN WITH TEXT PAGE CSS
+=> FIVE COLUMN FULLWIDTH PAGE CSS
+=> CREATIVE STYLE PAGE CSS
+=> CONTENT STICK PAGE CSS
+=> CONTENT STICK SIDEBAR PAGE CSS
+=> IMAGE SLIDER PAGE CSS
+=> BIG IMAGE HEADER PAGE CSS
+=> IMAGE WITH DETAIL PAGE CSS
+=> CONTENT EXTENDED PAGE CSS
+*/
+
+/* one column with text page css start */
+.breadcrumb {
+	padding: 50px 0;
+}
+.grid-item-btn {
+    margin-bottom: 0;
+}
+.single-portfolio-img {
+	overflow: hidden;
+}
+.breadcrumb.breadcrumb2 {
+    padding: 65px 0;
+}
+.breadcrumb.breadcrumb3 {
+    padding: 55px 0;
+}
+.display-table-area {
+	height: 100%;
+}
+.breadcrumb-content h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.portfolio-menu ul li {
+    margin: 0 25px 0 0;
+}
+.portfolio-menu {
+    margin: 0 0 30px;
+}
+.portfolio-paragra p {
+	margin: 8px 0;
+}
+.portfolio-paragra {
+	color: #666666;
+}
+.portfolio-paragra a {
+    float: none !important;
+    display: inline-block;
+    width: 100%;
+}
+/* one column with text page css end */
+
+/* two column with text page css start */
+.single-portfolio-img {
+	position: relative;
+}
+.single-portfolio-icon {
+	position: absolute;
+	transition: 0.5s;
+	bottom: 15px;
+	width: 100%;
+	left: 10px;
+    transform: scaleY(0);
+}
+.single-portfolio-icon h6, .single-portfolio-icon {
+	color: #fff;
+}
+.single-portfolio-icon a {
+	background: rgba(10,10,10,0.6);
+	color: #fff;
+	padding: 7px 15px;
+	margin: 0 3px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid transparent;
+}
+.single-portfolio-icon .single-portfolio-clear a:hover {
+	background: transparent;
+	border-color: #fff;
+}
+.single-portfolio-icon h6 > a,
+.single-portfolio-icon p > a {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+.single-portfolio-img:hover .single-portfolio-icon {
+    transform: scaleY(1);
+}
+.row.portfolio .col-lg-3 {
+    margin-bottom: 0;
+}
+/* two column with text page css end */
+
+/* five column fullwidth page css start */
+.five-columns .col-mid-5 {
+	width: 20%;
+	padding: 0 15px;
+}
+.single-portfolio-clear {
+	width: 100%;
+	display: inline-block;
+	margin-top: 20px;
+}
+.single-portfolio-icon {
+	text-align: center;
+	background: rgba(10,10,10,0.8);
+    left: 0;
+    bottom: 0;
+	top: 0;
+}
+.home3-portfolio.one-column .single-portfolio .single-portfolio-icon p {
+    float: none;
+}
+.blog-default ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.grid-item-btn .one-btn.one-btn-del , .grid-item-btn .one-btn.one-btn-del:hover {
+	border: 2px solid #000;
+}
+.three-column {
+	overflow: hidden;
+}
+.three-column .single-portfolio-img {
+	margin: 0 -16px;
+}
+.three-portfolio-menu {
+	background: #333333;
+	text-align: center;
+	margin: 0 -15px;
+	padding: 12px 0;
+}
+.portfolio-menu.three-portfolio-menu ul li:hover, .portfolio-menu.three-portfolio-menu ul li.active {
+    color: #fff;
+}
+.portfolio-menu.three-portfolio-menu ul li {
+    margin: 0 10px;
+}
+.portfolio:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+/* five column fullwidth page css end */
+
+/* creative style page css start */
+.masonary {
+	display: grid;
+	overflow: hidden;
+	height: auto !important;
+	margin: 0 -15px;
+	grid-template-columns: repeat(4, 1fr);
+}
+.masonary .col-masonary:nth-child(7) ,
+.masonary .col-masonary:nth-child(1) {
+	grid-row: span 2;
+	grid-column: span 2;
+}
+.masonary .col-masonary:nth-child(4) {
+	grid-column: span 2;
+}
+.col-masonary {
+    position: static !important;
+}
+.col-masonary .single-portfolio-img {
+    width: 100%;
+    height: 100%;
+}
+.col-masonary .single-portfolio-img img {
+    height: 100%;
+}
+.masonary .single-portfolio-icon .single-portfolio-clear a {
+    border-radius: 100%;
+    display: inline-block;
+    background: #000;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0;
+}
+.masonary .single-portfolio-icon .single-portfolio-clear a:hover {
+	background: #fff;
+	color: #000;
+}
+.masonary .single-portfolio-icon {
+	background: rgba(0,0,0,0.3);
+}
+/* creative style page css end */
+
+/* content stick page css start */
+.content-stick {
+	border-top: 1px solid #eee;
+}
+.content-stick-image h2 {
+	font-size: 24px;
+    line-height: 30px;
+}
+.content-stick-image ul {
+	margin: 45px 0 45px;
+}
+.content-stick-image ul li {
+	margin-bottom: 12px;
+}
+.content-stick-image ul li span {
+	width: 158px;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 600;
+	display: inline-block;
+}
+.content-stick-image ul li i {
+	margin-right: 5px;
+}
+.content-stick-image ul li a i {
+	margin-right: 15px;
+}
+.content-stick-dot .one-btn {
+	border-radius: 0;
+	padding: 10px 20px;
+	background: #f6f6f6;
+	border: none;
+	font-size: 15px;
+}
+.content-stick-dot li {
+	display: inline-block;
+}
+.content-stick-dot .active .one-btn , .content-stick-dot .one-btn:hover {
+	background: #000000;
+	color: #fff;
+}
+.content-stick-image .content-stick-dot ul li a i {
+	margin-right: 0;
+}
+.call-to-action h6 {
+	font-size: 24px;
+	line-height: 45px;
+	font-weight: 600;
+}
+.call-to2 {
+	padding: 40px 0;
+}
+.call-to2 .one-btn {
+	background: #fff;
+	border: none;
+}
+.call-to2 .one-btn:hover {
+	background: #000;
+}
+.content-stick-fixed {
+    position: fixed;
+    top: 0;
+    margin: auto;
+    width: 44%;
+    max-width: 547px;
+    right: 8.333%;
+}
+.content-stick-fixed2 {
+    max-width: 350px;
+	bottom: 0;
+    margin: auto;
+    width: 40%;
+	padding: 0;
+    position: fixed;
+}
+.three-portfolio-menu h6 {
+	font-size: 14px;
+	color: #fff;
+}
+/* content stick page css end */
+
+/* content stick sidebar page css start */
+.content-stick-sidebar {
+	text-align: center;
+}
+.content-stick-sidebar i {
+	width: 60px;
+	height: 60px;
+	font-size: 25px;
+	border: 1px solid #000;
+	border-radius: 100%;
+	line-height: 55px;
+	color: #000;
+}
+.content-stick-sidebar p {
+	margin: 0 40px;
+}
+.content-stick-sidebar h6 {
+	margin: 15px 0 10px;
+}
+.content-sidebar-full {
+	margin-left: -22.333%;
+	padding-right: 25px;
+}
+/* content stick sidebar page css end */
+
+/* image slider page css start */
+.imageslide .image-slider-left {
+	padding-left: 10px;
+}
+.imageslide .image-slider-right {
+	padding-right: 10px;
+}
+.imageslide .image-slide {
+	padding: 0 10px;
+}
+.imageslide .col-md-3 , .big-imageslide .col-lg-12 {
+	padding: 0;
+}
+.imageslide .owl-prev , .imageslide .owl-next {
+	width: 35px;
+	height: 35px;
+	padding: 5px 0;
+}
+.imageslide .owl-prev {
+	left: -25px;
+}
+.imageslide .owl-next {
+	right: -25px;
+}
+.imageslide .content-stick-image ul {
+    margin: 0;
+}
+.imageslide .content-stick-dot {
+	margin-top: 25px;
+}
+.image-slide-work {
+	background: #f6f6f6;
+}
+/* image slider page css end */
+
+/* big image header page css start */
+.bigimage-slide .owl-prev {
+	left: 0;
+}
+.bigimage-slide .owl-next {
+	right: 0;
+}
+.bigimage-slide-column {
+	background: #2b2b2b;
+	padding: 15px 0;
+}
+.bigimage-slide-column .portfolio-menu ul li i {
+	margin: 0 5px;
+}
+.bigimage-slide-column .portfolio-menu ul li {
+	color: #fff;
+    text-transform: uppercase;
+}
+.bigimage-slide-column .portfolio-menu {
+    margin: 0;
+}
+/* big image header page css end */
+
+/* image with detail page css start */
+.image-with-detail ul li a {
+	color: #999;
+	font-size: 18px;
+	font-weight: 700;
+	display: block;
+}
+.image-with-detail ul li.active a {
+	color: #000;
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	margin-top: 20px;
+}
+.image-with-detail ul.image-with-color li a {
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+.image-with-detail ul.image-with-color li a i {
+    width: 55px;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    text-align: center;
+    margin-right: 40px;
+}
+.carousel-indicators li {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    text-indent: 0;
+    margin: 0;
+    float: left;
+    padding: 0;
+    width: 25%;
+    margin-top: 30px;
+}
+.carousel-indicators {
+	position: static;
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.carousel-indicators li img {
+	padding: 0 15px;
+}
+.bigimage-slide .content-stick-image p {
+	margin-top: 8px;
+}
+.image-slide-works h6 {
+	color: #000;
+	font-size:14px;
+}
+.content-stick.bigimage-slide .content-stick-image ul {
+    margin: 0;
+}
+.bigimage-slide .content-stick-image ul {
+    margin: 0 0 30px;
+}
+/* image with detail page css end */
+
+/* content extended page css start */
+.content-ex .service-slider i {
+	font-size: 30px;
+	color: #000;
+	margin-bottom: 15px;
+	display: block;
+}
+.content-ex.counters {
+    background: url('../../images/portfolio/image-with-detail/counter.jpg') no-repeat 0 0 / cover;
+}
+.content-ex .counters-overlay {
+	background: rgba(20,20,20,0.5);
+}
+.gallery-slider .gallery-contents {
+	margin-top: 0;
+}
+.gallery-contents h3 {
+	font-size: 24px;
+}
+.content-extend .gallery-contents {
+	margin-top: 0;
+}
+.content-ex .counter-content h2 {
+	font-family: 'Roboto Slab', serif;
+}
+.service-slider:hover {
+    box-shadow: 0 0 20px #ccc;
+}
+/* content extended page css end */
